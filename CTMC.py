@@ -29,6 +29,7 @@ def CTMC(horizon, initial_state, generator, dt = 0.01):
     trace : pandas.DataFrame
         A data frame of how the state probabilities evolve over time.
 
+        Im making changes.
     """
     # number of states 
     n = initial_state.shape[1]
